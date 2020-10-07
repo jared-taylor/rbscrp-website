@@ -9,8 +9,17 @@ body {
 .ui.banner.container {
     text-align: left;
 }
+
 .ui.img {
     padding-top: 0px;
+}
+
+.ui.hours.img {
+    width: 600px;
+    height: 400px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
 }
 
 .ui.borderless.menu {
@@ -30,6 +39,16 @@ item {
     justify-items: center;
     justify-content: center;
     align-items: center;
+    position: relative;
+    left: 10%;
+}
+
+.ui.two.column.centered.borderless.grid {
+    alignment: center !important;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
 }
 
 h1 {
@@ -41,4 +60,51 @@ h2 {
     color: black;
     text-align: center;
     font-weight: bolder;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    font-weight: normal;
+}
+
+#support {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.ui.hours.container {
+    background-color: #3682e9;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.ui.hours.column {
+    background-color: white;
+    height: 120%;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+.ui.hours.image column {
+    background-color: #3682e9;
+    height: 120%;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+.ui.button {
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+    left: 35%;
+}
+
+.ui.support.button {
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+    left: 45%;
 }
