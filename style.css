@@ -28,11 +28,6 @@ body {
     padding-bottom: 0px;
 }
 
-item {
-    color: black !important;
-    alignment: left;
-}
-
 .ui.two.column.centered.grid {
     width: 80%;
     alignment: center !important;
@@ -68,6 +63,24 @@ h3 {
     font-weight: normal;
 }
 
+#h2-hours {
+    color: black;
+    text-align: left;
+    font-weight: bolder;
+}
+
+#h2-map {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#h3-hours {
+    color: black;
+    text-align: left;
+    font-weight: normal;
+}
+
 #support {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -76,23 +89,21 @@ h3 {
 .ui.hours.container {
     background-color: #3682e9;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 15px;
 }
 
 .ui.hours.column {
     background-color: white;
-    height: 120%;
-    padding: 0px;
-    border: 0px;
-    margin: 0px;
+    padding-left: 0px;
+    border-left: 0px;
+    margin-left: 0px;
 }
 
-.ui.hours.image column {
+.ui.hours.image.column {
     background-color: #3682e9;
-    height: 120%;
-    padding: 0px;
-    border: 0px;
-    margin: 0px;
+    padding-right: 0px;
+    border-right: 0px;
+    margin-right: 0px;
 }
 
 .ui.button {
@@ -107,4 +118,27 @@ h3 {
     color: aliceblue;
     position: relative;
     left: 45%;
+}
+
+.ui.map.container {
+    margin-top: 0px;
+    background-color: black;
+}
+
+iframe {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 20%;
+}
+
+.ui.form {
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
+
+.ui.field{
+    background-color: black;
+    color: white;
 }

@@ -17,7 +17,17 @@
 
 <div class="ui borderless menu">
     <a class="item" href="#">Home</a>
-    <a class="item" href="#">Solutions</a>
+    <div class="ui dropdown item">
+        <div class="text">Solutions</div>
+        <i class="dropdown icon"></i>
+        <div class="menu">
+            <div class="item">Heartland Restaurant</div>
+            <div class="item">Oracle RES 3700</div>
+            <div class="item">Oracle|Micros Simphony</div>
+            <div class="item">Paylink Curbside</div>
+            <div class="item">Paylink In House</div>
+        </div>
+    </div>
     <a class="item" href="#">Support</a>
     <a class="item" href="#">Online Ordering Promotion</a>
     <a class="right item" href="mailto:sales@rbscrp.com">sales@rbscrp.com</a>
@@ -54,14 +64,54 @@
             <img class="ui hours image" src="https://static.wixstatic.com/media/2d58de_02dfd9eb1cf247d5ba7b6d411635ccbd~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,usm_0.66_1.00_0.01/kitchen-tab-slide.jpg">
         </div>
         <div class="ui hours column">
-            <h1>POS SOLUTIONS</h1>
-            <h2>Solutions for restaurants, bars, </br> and hotels of any size</h2>
-            <button class="ui button">
-                Learn more <i class="right chevron icon"></i>
-            </button>
+            <h2 id="h2-hours">Business Hours</h2>
+            <h3 id="h3-hours">Mon - Fri: 8am - 5pm</br>
+                Sat - Sun: Closed</h3>
         </div>
     </div>
 </div>
+
+<div class="ui map container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3716.6657378609443!2d-157.88747208506234!3d21.32422038583906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xec2301e6a681dd12!2sRbs%20Crp%20Inc.!5e0!3m2!1sen!2sus!4v1602056700935!5m2!1sen!2sus" width="60%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <h2 id="h2-map">GET IN TOUCH</h2>
+    <div class="ui form">
+        <div class="two equal width fields">
+            <div class="ui field">
+                <label>Name</label>
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="ui field">
+                <label>Email</label>
+                <input type="text" placeholder="Email">
+            </div>
+        </div>
+        <div class="two equal width fields">
+            <div class="ui field">
+                <label>Phone</label>
+                <input type="text" placeholder="Phone">
+            </div>
+            <div class="ui field">
+                <label>Address</label>
+                <input type="text" placeholder="Address">
+            </div>
+        </div>
+        <div class="field">
+            <label>Subject</label>
+            <input type="text" placeholder="Subject">
+        </div>
+        <div class="field">
+            <label>Type your message here...</label>
+            <textarea placeholder="Type your message here..."></textarea>
+        </div>
+        <div class="ui submit button">Submit</div>
+    </div>
+</div>
+
+<script>
+    $('.ui.dropdown')
+        .dropdown()
+    ;
+</script>
 
 </body>
 </html>
